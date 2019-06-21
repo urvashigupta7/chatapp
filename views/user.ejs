@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Mychat app</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style>
+      .container{
+        margin:200px auto;
+        width:50%;
+      }
+    </style>
+    </head>
+    <div class="container">
+    <div class="jumbotron">
+<form action="/start" method="POST">
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" name="newuser" id="exampleInputEmail1" placeholder="username" required="required">
+  </div>
+  <div class="form-group">
+    <label for="friend">friend</label>
+    <input type="text" class="form-control" name="friend" id="exampleInputEmail1" placeholder="friendname" required="required">
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+</form>
+</div>
+</div>
+</html>

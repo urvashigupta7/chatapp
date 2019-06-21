@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        
+    <div id="chatapp">
+        <div id='chatwindow'>
+           <!--<div>You are talking with <%=data.friend%></div>   -->
+            <div id='output'>
+                <!--<div id="newuser"></div>-->
+               </div>
+                
+           
+            <div id="feedback"></div>
+            
+            </div>
+            <!--<input id='handle'type ="text" placeholder="handle" required="required" />-->
+            <input id='handle' type="text" name="user" value="<%=data.username%>" readonly>
+             <input id='friend' type="text" name="friend" value="<%=data.friend%>" readonly>
+             <input id="message" type="text" placeholder="message" required="required" />
+               <button id="send">Send </button>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+         <script src="chatj.js">
+         
+        </script>
+
+        </body>
+        </html>
