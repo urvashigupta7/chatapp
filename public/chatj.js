@@ -1,4 +1,4 @@
- var socket=io.connect("https://urvashig-urvashi07.c9users.io/");
+ var socket=io();
              var message=document.getElementById('message');
              var handle=document.getElementById('handle');
            var btn=document.getElementById('send');
